@@ -1,0 +1,27 @@
+/* Estilos Personalizados - Melhor Companhia */
+body {
+  background-color: #020617;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e11d48;
+}
+
+/* Efeito Hover em Cards */
+.profile-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.profile-card:hover {
+  transform: translateY(-4px);
+}
